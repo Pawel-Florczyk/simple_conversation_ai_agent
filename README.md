@@ -4,7 +4,7 @@ A lightweight and responsive AI agent built with Python, leveraging the **Google
 
 ## Features
 - **Gemini Integration:** Powered by the `langchain-google-genai` library.
-- **Persistent Memory:** Automatically saves conversation history to a `history.json` file, allowing the agent to remember context across different sessions.
+- **Persistent Memory:** Automatically saves conversation history, allowing the agent to remember context across different sessions.
 - **Security First:** Robust API key management using environment variables via `.env`.
 - **Interactive CLI:** Real-time chat interface directly in your terminal.
 
