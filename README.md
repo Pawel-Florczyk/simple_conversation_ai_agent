@@ -17,7 +17,6 @@ A lightweight and responsive AI agent built with Python, leveraging the **Google
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/YourUsername/simple_conversation_agent.git](https://github.com/YourUsername/simple_conversation_agent.git)
-   cd simple_conversation_agent
 
 2. **Install dependencies:**
    ```bash
@@ -27,7 +26,7 @@ A lightweight and responsive AI agent built with Python, leveraging the **Google
    - Create a `.env` file in the root directory.
    - Add your Gemini API key:
      ```text
-     GOOGLE_API_KEY=your_api_key_here
+     [GOOGLE_API_KEY]=your_api_key_here
      ```
 
 ## Usage
