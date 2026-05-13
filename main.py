@@ -20,6 +20,10 @@ class Agent:
 
     def ask(self, user_text: str) -> str | list[Any]:
         self.memory.append(HumanMessage(content=user_text))
+
+        if len(self.memory) > 10:
+            self.memory.pop(1)
+
         response = self.llm.invoke(self.memory)
         self.memory.append(AIMessage(content=response.content))
         return response.content
