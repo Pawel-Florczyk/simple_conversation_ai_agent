@@ -1,4 +1,4 @@
-# Simple Conversation Agent 🤖
+# Simple Conversation Agent
 
 A lightweight and responsive AI agent built with Python, leveraging the **Google Gemini 2.5 Flash** model. This project serves as a foundational template for learning LLM (Large Language Model) interactions and conversation history management.
 
