@@ -15,8 +15,8 @@ class Agent:
     def __init__(self, model_name="gemini-2.5-flash", temperature=0.5):
         self.llm = ChatGoogleGenerativeAI(model=model_name, temperature=temperature)
         self.system_instruction = SystemMessage(
-            content="You have to give an answers on questions. "
-                    "You can answer in Polish or English."
+            content="You have to give an answers to questions. "
+                    "You have to answer in Polish or English."
         )
         self.memory: List[BaseMessage] = [self.system_instruction]
         self.conn = sqlite3.connect("agent_db_memory.sqlite")
